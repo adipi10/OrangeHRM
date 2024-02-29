@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.275 s <<< FAILURE! - in TestSuite
+Immegration(JIRA.OrangeHRM.ImmigrationTest)  Time elapsed: 25.919 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+	at JIRA.OrangeHRM.ImmigrationTest.Immegration(ImmigrationTest.java:19)
+
